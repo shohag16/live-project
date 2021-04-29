@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+*{margin: 0;
+padding: 0;
+outline: 0}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background:url(image/10.png)repeat fixed 0 0 #fff;
+  
+}
+.templete{width: 960px;
+  margin: 0 auto;
+}
+.clear{
+  overflow: hidden;
+}
+input[type="text"],input[type="email"],input[type="text"]{
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+  border: 2px solid #233486;
+}
+input[type="submit"]{
+  background: #233486;
+  padding: 5px;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+input[type="submit"]:hover{
+  background: #DDE4F6;
+  color: #000;
+}
+#textarea{
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+  border: 2px solid #233486;
+}
+.headersection{
+
+
+background-color: #233486;
+color: #fff;
+}
+.logo{
+
+  float: left;
+}
+.logo img{
+float: left;
+width: 200px;
+margin: 20px;
+
+}
+.logo h2{
+float: left;
+margin-left: 20px;
+margin-top: 30px;
+font-size: 30px;
+margin-bottom: 10px;
+
+}
+.logo p{
+text-align: center;
+font-size: 18px;
+}
+.social{
+
+  float: right;
+
+
+}
+.social img{
+  width: 40px;
+  float: right;
+margin-top: 20px;
+padding: 10px;
+
+}
+.nav{
+  margin-top: 1px;
+  background-color: #233455;
+
+}
+.nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav ul li{
+  display: block;
+  float: left;
+
+}
+.nav ul li a{
+  display: block;
+  background:#233486;
+  border-radius: 3px;
+  text-decoration:none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.nav ul li a:hover,#active{
+background: #DDE4F6;
+color: #000;
+}
+
+}
+.slidersection{
+margin-bottom: 10px;
+box-shadow: 0px 10px 10px -2px #000;
+
+}
+
+.contentsection{
+  background:#DDE4F6;
+}
+.maincontent{
+  width: 600px;
+  background: #FFFFFF;
+  float: left;
+  margin: 10px 10px 30px 30px;
+  border: 3px solid #233486;
+}
+.samepost{
+margin: 10px 10px;
+}
+.samepost h2{
+  background: #233486;
+  padding: 10px;
+  border-bottom: 3px solid #FE6140;
+  color: #fff;
+}
+.samepost img{
+float: left;
+width: 200px;
+margin-right: 10px;
+background: #fff;
+padding: 5px;
+border: 3px solid #000;
+}
+.samepost p{
+font-size: 20px;
+line-height: 24px;
+text-align:justify;
+margin: 10px 10px;
+
+}
+.readmore{
+  float: right;
+}
+.readmore a{
+text-decoration: none;
+background: #282C34;
+color: #fff;
+display: block;
+padding: 10px;
+font-size: 16px;
+border-radius: 5px;
+border: 2px solid #DDE4F6;
+
+}
+.readmore a:hover{
+   color: #0B66A8;
+}
+.sidebar{
+  width: 240px;
+  padding: 3px;
+  background: #FFFFFF;
+  float:right;
+  margin: 15px 30px 30px 30px;
+  border: 3px solid #233486;
+}
+.samesidbar h2, .about h2{
+  padding: 10px;
+  background: #233486;
+  color: #fff;
+  border-bottom: 2px solid #FE6140;
+
+}
+.samesidbar p, .about p{
+  margin: 5px;
+  padding: 10px;
+  line-height: 20px;
+  font-size: 18px;
+  text-align: justify;
+
+}
+.samesidbar ul{
+  margin: 0;
+  padding: 0;
+
+}
+.samesidbar ul li{
+  font-size: 16px;
+  padding: 5px 8px;
+    border-bottom: 2px solid #FE6140;
+
+}
+.samesidbar ul li a{
+text-decoration: none;
+  padding: 5px;
+}
+.popular{
+
+}
+.popular h3{
+padding-top:  5px;
+border-bottom:2px dotted #FE6140;
+}
+.popular img{
+  width: 100px;
+margin-top: 25px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 20px;
+
+}
+.popular p{
+line-height: 20px;
+margin: 10px;
+}
+.popular a{
+text-decoration: none;
+}
+.footersection{
+  height: 85px;
+  background-color: #233486;
+  color: #fff;
+  text-align: center;
+
+}
+.samesidbar ul li a:hover{
+  background-color: #282C34;
+  color: #fff;
+}
+.about{
+
+}
+.about img{
+  margin: 15px;
+  float: left;
+  padding: 5px;
+  width: 300px;
+  padding: 5px;
+  outline: 2px solid #233455;
+}
+.relatedpost{}
+  .relatedpost h2{}
+    .relatedpost img{
+      width: 150px;
+    }
+    .relatedpost img:hover{
+      opacity: 0.4;
+    }
+
+.footersection p{}
+.footermenu{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footermenu ul{
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+  text-align: center;
+}
+  .footermenu ul li{
+
+    display: inline-block;
+
+
+  }
+  .footermenu ul li a{
+  color: white;
+  font-size: 18px;
+  margin-right: 5px;
+  text-decoration: none;
+  }
+  .fixedicon{
+    position: fixed; top: 200px;
+    width: 60px;
+    right: 0px;
+  }
+  .fixedicon img{
+  width: 50px;
+  }
